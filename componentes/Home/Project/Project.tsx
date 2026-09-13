@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Tilt from 'react-parallax-tilt';
+
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
@@ -33,15 +33,13 @@ export default function Project() {
             data-aos-delay={idx * 100}
             key={idx}
           >
-            <Tilt>
-              <Image 
-                src={src} 
-                alt="project" 
-                width={450} 
-                height={550} 
-                className="rounded-md w-full h-auto shadow-md dark:shadow-none" 
-              />
-            </Tilt>
+            <Image 
+  src={src} 
+  alt="project" 
+  width={450} 
+  height={550} 
+  className="rounded-md w-full h-auto shadow-md dark:shadow-none" 
+/>
           </div>
         ))}
       </div>

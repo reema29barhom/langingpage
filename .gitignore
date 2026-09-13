@@ -15,7 +15,7 @@
 node_modules
 .next
 ngrok.exe
-# next.js
+# nex
 /.next/
 /out/
 
