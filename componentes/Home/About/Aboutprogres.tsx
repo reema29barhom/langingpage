@@ -1,18 +1,19 @@
 import React from "react";
 import { FaBullseye } from "react-icons/fa";
 import { HiOutlineChartBar } from "react-icons/hi";
+import { useTranslations } from "next-intl"; // استيراد المكتبة
 
 export default function Aboutprogres() {
+  const t = useTranslations("AboutProgress"); // ربط القسم
+
   const data = [
     {
       id: 1,
-      title: "Digital Marketing",
       percent: 95,
       icon: <FaBullseye className="text-white text-3xl" />,
     },
     {
       id: 2,
-      title: "Digital Business",
       percent: 90,
       icon: <HiOutlineChartBar className="text-white text-3xl" />,
     },
@@ -37,7 +38,8 @@ export default function Aboutprogres() {
           <div className="flex-1">
             <div className="flex justify-between items-center mb-2">
               <h3 className="font-semibold text-gray-800 text-lg">
-                {item.title}
+                {/* استدعاء الترجمة باستخدام الـ id */}
+                {t(item.id.toString())}
               </h3>
 
               <p className="font-semibold text-gray-800">
@@ -47,7 +49,6 @@ export default function Aboutprogres() {
 
             {/* Progress bar background */}
             <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
-              {/* Progress fill */}
               <div
                 className="h-full bg-[#b58b58] rounded-full transition-all duration-500"
                 style={{

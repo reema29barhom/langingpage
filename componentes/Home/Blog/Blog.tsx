@@ -1,16 +1,18 @@
 import React from "react";
 import BlogCard from "./BlogCard";
+import { useTranslations } from "next-intl";
 
 export default function Blog() {
+  const t = useTranslations("Blog");
+
   return (
-    <div className="pt-16 pb-16 bg-white">
+    <div className="pt-16 pb-16">
       <h2 className="text-[#b69974] text-lg text-center font-medium tracking-widest">
-        Blog
+        {t("subheading")}
       </h2>
 
-      <h1 className="text-3xl md:text-5xl mt-4 text-black font-bold text-center">
-        Latest news & articles <br />
-        From Our Blog
+      <h1 className="text-3xl md:text-5xl mt-4 text-black dark:text-white font-bold text-center">
+        {t.rich("heading", { br: () => <br /> })}
       </h1>
 
       <div
@@ -21,17 +23,15 @@ export default function Blog() {
       >
         <BlogCard
           image="/images/b1.png"
-          title="Standard chunk of Lorem Ipsum Our Company"
+          title={t("cards.1.title")}
         />
-
         <BlogCard
           image="/images/b2.png"
-          title="These cases are many simple and easy"
+          title={t("cards.2.title")}
         />
-
         <BlogCard
           image="/images/b3.png"
-          title="Standard chunk of Lorem Ipsum Our Company"
+          title={t("cards.3.title")}
         />
       </div>
     </div>

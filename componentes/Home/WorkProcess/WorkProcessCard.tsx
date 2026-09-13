@@ -3,12 +3,14 @@ import React from "react";
 type Props = {
   number: string;
   title: string;
+  description: string; // إضافة الوصف هنا
   isExtraClass?: boolean;
 };
 
 export default function WorkProcessCard({
   number,
   title,
+  description, // استقبال الوصف
   isExtraClass = false,
 }: Props) {
   return (
@@ -30,8 +32,7 @@ export default function WorkProcessCard({
         </h1>
 
         <p className="lg:w-[90%] mt-3 leading-8 font-medium text-gray-700">
-          ished fact that a reader will be distrol acted bioiiy desig the.
-          ished fact that a reader will be distrol.
+          {description} {/* استخدام الوصف المترجم */}
         </p>
       </div>
     </div>

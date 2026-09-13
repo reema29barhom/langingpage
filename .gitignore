@@ -12,7 +12,9 @@
 
 # testing
 /coverage
-
+node_modules
+.next
+ngrok.exe
 # next.js
 /.next/
 /out/

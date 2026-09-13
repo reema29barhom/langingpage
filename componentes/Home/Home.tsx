@@ -2,7 +2,6 @@
 
 import React, { useEffect } from "react";
 import Hero from "./Hero/Hero";
-import NavContanier from "./Navbar/Navcontanier";
 import About from "./About/About";
 import Services from "./Services/Services";
 import WorkProcess from "./WorkProcess/WorkProcess";

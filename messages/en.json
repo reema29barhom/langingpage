@@ -1,0 +1,89 @@
+{
+  "Hero": {
+    "title": "Crafting your digital story with passion",
+    "description": "Payment solutions enable businesses to accept payments. Payment solutions enable businesses to accept payments from customers conveniently and securely.",
+    "button": "Discover More"
+  },
+  "Navbar": {
+    "links": {
+      "1": "Home",
+      "2": "About",
+      "3": "Services",
+      "4": "Work",
+      "5": "Portfolio",
+      "6": "Blog",
+      "7": "Contact"
+    },
+    "createAccount": "Create Account"
+  },
+  "About": {
+    "subheading": "About Us",
+    "heading": "Innovative solutions for digital success",
+    "description": "Payment solutions enable businesses to accept payments..."
+  },
+  "AboutProgress": {
+    "1": "Digital Marketing",
+    "2": "Digital Business"
+  },
+  "Services": {
+    "subheading": "Our Services",
+    "heading": "Crafting your digital <b></b> story with passion",
+    "cards": {
+      "1": { "title": "Web Development", "desc": "Work from home" },
+      "2": { "title": "Digital Marketing", "desc": "Digital Marketing" },
+      "3": { "title": "Web Design", "desc": "Web Design" },
+      "4": { "title": "Video Editing", "desc": "Video Editing" }
+    }
+  },
+  "WorkProcess": {
+    "subheading": "Work Process",
+    "heading": "Transforming ideas into digital reality",
+    "cards": {
+      "1": { "title": "Creative Craze", "desc": "It is a long established fact that a reader will be distracted." },
+      "2": { "title": "Brand Boost", "desc": "It is a long established fact that a reader will be distracted." },
+      "3": { "title": "Media Minds", "desc": "It is a long established fact that a reader will be distracted." },
+      "4": { "title": "Data Analysis", "desc": "It is a long established fact that a reader will be distracted." }
+    }
+  }
+  ,"Portfolio": {
+  "subheading": "Portfolio",
+  "heading": "Transforming ideas into digital reality"
+},
+"Blog": {
+  "subheading": "Blog",
+  "heading": "Latest news & articles  From Our Blog",
+  "cards": {
+    "1": { "title": "Standard chunk of Lorem Ipsum Our Company" },
+    "2": { "title": "These cases are many simple and easy" },
+    "3": { "title": "Standard chunk of Lorem Ipsum Our Company" }
+  }
+},
+"BlogCard": {
+  "category": "Category",
+  "readMore": "READ MORE",
+  "date": "October 27, 2025"
+},"Contact": {
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit"
+  },
+  "info": {
+    "call": "Call Us",
+    "emailUs": "Email Us",
+    "address": "Address"
+  }
+},"Footer": {
+  "description": "Conditions Terms of Use Ours feturesin Services ew Guests VisitThe Team List Guests VisitThe Team List",
+  "address": "Address",
+  "address_details": "Old city Street, USA \n 1212 New york-3500",
+  "services": "More Services",
+  "services_list": ["UI Design", "UX Design", "Web App", "Digital Marketing", "Video Editing"],
+  "newsletter": "Newsletter",
+  "newsletter_desc": "It is a long established fact that a reader will be distracted",
+  "news_title": "The standard chunk of Lorem Ipsum",
+  "copyright": "© Webdev Warriors 2025 | All Rights Reserved"
+}
+}
